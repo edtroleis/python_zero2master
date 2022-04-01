@@ -12,14 +12,9 @@ autopep8
 pip3 install -r requirements.txt
 ```
 
-## 3. Navigate to library directory of your environment
+## 3. Edit indent size from autopep8
 ```
-cd /usr/local/lib/python3.8/dist-packages/
-```
+code /usr/local/lib/python3.8/dist-packages/code autopep8.py
 
-## 4. Open autopep8.py
+Search for "DEFAULT_INDENT_SIZE" and change it to 2
 ```
-code autopep8.py
-```
-
-## 5. Search for "DEFAULT_INDENT_SIZE" and change it to 2
